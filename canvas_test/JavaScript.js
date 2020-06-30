@@ -7,8 +7,6 @@ let plots = [
     { id: 5, name: 'eeeee', rate: 1},
 ]
 
-
-
 let canvas;
 let stage;
 let clock;
@@ -18,23 +16,17 @@ let images = [];
 let centerPos = {x:0,y:0}
 let LIGHT_GREEN = '#00FF00'
 
-//window.onresize = fitCanvasSize;
-//function fitCanvasSize() {
-//    let canvasSize = Math.min(document.documentElement.clientWidth, document.documentElement.clientHeight);
-//    canvas.width = canvasSize;
-//    canvas.height = canvasSize;
-//}
 
 function setStage() {
     canvas = document.getElementById("radar-chart");
     var ctx = canvas.getContext('2d');
-    ctx.fillStyle = "#000";
+    ctx.fillStyle = "black";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.strokeStyle = "#FF0000";
+    ctx.fill();
+    ctx.strokeStyle = LIGHT_GREEN;//"#000000";
     ctx.strokeRect(0, 0, canvas.width, canvas.height);
 
     stage = new createjs.Stage(canvas);
-
     radarContainer = new createjs.Container();
     stage.addChild(radarContainer);
     stage.update();
@@ -117,6 +109,9 @@ let init = function(){
         point.graphics
             .beginFill("red")
             .drawCircle(0, 0, 10);
+        //
+        createjs.Tween.get(point, { loop: true })
+            .to({ alpha: 0 }, 1000)
 
         points.push(point);
         clock.addChild(point);
@@ -145,4 +140,24 @@ let handleTick = function () {
     //    }
     //}
     //canvas.width = window.innerWidth;
+}
+//test
+// ステージを作成
+// リサイズイベントを検知してリサイズ処理を実行
+window.addEventListener("resize", handleResize);
+handleResize(); // 起動時にもリサイズしておく
+
+// リサイズ処理
+function handleResize(event) {
+    // 画面幅・高さを取得
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+    // Canvas要素の大きさを画面幅・高さに合わせる
+    let size = Math.min(w-100, h-100);
+
+    stage.canvas.width = size;
+    stage.canvas.height = size;
+    stage.update();
+
+    init();
 }

@@ -52,7 +52,6 @@ C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\bin\roslyn\VBCSCompiler
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\obj\Debug\createjs_test.csprojAssemblyReference.cache
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\obj\Debug\createjs_test.csproj.CoreCompileInputs.cache
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\obj\Debug\createjs_test.csproj.CopyComplete
 C:\Users\Redpeaks\source\repos\canvas_test\createjs_test\obj\Debug\createjs_test.dll

@@ -1,5 +1,6 @@
 ﻿-Image追加
 -Animation動作
+-Window Resize しても同じ相対位置に表示
 -
 
 
