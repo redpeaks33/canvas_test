@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "canvas_radar_test", "canvas_test\canvas_radar_test.csproj", "{7D57A9C1-8664-4C21-B505-E29C7A08BBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createjs_test", "createjs_test\createjs_test.csproj", "{CCFE8F62-25A0-46F7-A678-1335AE059E5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D57A9C1-8664-4C21-B505-E29C7A08BBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D57A9C1-8664-4C21-B505-E29C7A08BBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D57A9C1-8664-4C21-B505-E29C7A08BBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D57A9C1-8664-4C21-B505-E29C7A08BBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFE8F62-25A0-46F7-A678-1335AE059E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFE8F62-25A0-46F7-A678-1335AE059E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFE8F62-25A0-46F7-A678-1335AE059E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFE8F62-25A0-46F7-A678-1335AE059E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A55573-680D-4C2C-B76F-2B37F3D77CD5}
+	EndGlobalSection
+EndGlobal
